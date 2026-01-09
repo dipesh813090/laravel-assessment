@@ -25,12 +25,16 @@ php artisan migrate
 
 # Start queue worker
 php artisan queue:work --queue=onboarding
+
+Or
+
+docker compose exec app php artisan queue:work --queue=onboarding
 ```
 
 ### Docker Setup
 
 ```bash
-docker-compose up -d
+docker-compose up -d --build
 docker compose exec app composer install
 docker compose exec app php artisan migrate
 ```
