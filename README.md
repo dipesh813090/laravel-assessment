@@ -49,9 +49,9 @@ Docker Compose includes Redis service for queue and cache. Ensure Redis is runni
 {
     "organizations": [
         {
-            "name": "Acme Corporation",
-            "domain": "acme.com",
-            "contact_email": "contact@acme.com"
+            "name": "Organization Name",
+            "domain": "myorganization.com",
+            "contact_email": "contact@myorganization.com"
         }
     ]
 }
